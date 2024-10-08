@@ -13,7 +13,14 @@
 
 
 /* Hero section  */
-
+@media only screen and (max-width: 767px) {
+  .hero-search-form h3 {
+    display: block;
+    color: white;
+    font-size: 14px;
+  }
+  
+}
 @media only screen and (max-width: 991px) {
   .hero .hero-search-form {
     position: relative;
